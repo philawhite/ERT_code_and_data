@@ -1,0 +1,63 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs32 \cf0 \expnd0\expndtw0\kerning0
+## Directory Structure\
+\
+commented_code.R - Gibbs sampling code for model fitting. It loads in several rds files. In this Gibbs sampling, we assume a few simplifications relative to the model presented in White et al. (2021). Specifically, bandwidths for eta(s,t), beta(t), and gamma(t) are fixed. \
+\
+envr.rds - Design matrix with centered and scaled environmental predictors\
+\
+genus_idx.rds - file that gives a numeric index for each  for the following genera:\
+\
+Amphiglossa   \
+Arctotheca    \
+Arctotis \
+Athanasia     \
+Berkheya      \
+Brachylaena   \
+Chrysocoma    \
+Corymbium     \
+Cotula        \
+Didelta       \
+Dimorphotheca \
+Elytropappus \
+Eriocephalus  \
+Euryops       \
+Felicia       \
+Foveolina    \
+ Gazania       \
+Gorteria      \
+Gymnodiscus   \
+Haplocarpha   \
+Helichrysum   \
+Hirpicium     \
+Ifloga        \
+Lachnospermum\
+Leysera       \
+Lidbeckia     \
+Oedera        \
+Osteospermum  \
+Othonna       \
+Pentzia       \
+Printzia      \
+Pteronia      \
+Relhania      \
+Rosenia      \
+Senecio       \
+Stoebe\
+Syncarpha     \
+Ursinia \
+\
+loc_idx.rds - numerical location index for each reflectance spectrum. Number refers to row in the matrix in locs.rds\
+\
+locs.rds - location in eastings and northing (km)\
+\
+reflectances.rds - matrix of log-reflectances.\
+\
+v_genus.rds - posterior mean of bandwidths for reflectance random effect (gamma). These are fixed for simplicity. }
