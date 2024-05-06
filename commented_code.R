@@ -44,7 +44,7 @@ dx_sig2 = 20
 dx_beta = 25
 
 
-####### Load in reflectances (Y), scaled environment (X), and locations
+####### Load in log-reflectances (Y), scaled environment (X), and locations
 Y = readRDS("reflectances.rds")
 X = readRDS("envr.rds")
 loc_aster = readRDS("locs.rds")
